@@ -1,0 +1,64 @@
+# --- Python / FastAPI Backend ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual environment
+venv/
+ENV/
+env/
+
+# Model files (large files)
+*.pkl
+*.pt
+*.bin
+*.h5
+
+# # SentenceTransformer downloaded models
+# sentence_transformer_agnews/
+# models/
+# *.model
+# *.npy
+
+# Newspaper / article caching
+cache/
+articles/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Build artifacts
+build/
+dist/
+
+# Uvicorn reload cache
+*.pid
+
+# --- Node / Frontend ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Vite / React build output
+dist/
+.vite/
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# --- VSCode ---
+.vscode/
